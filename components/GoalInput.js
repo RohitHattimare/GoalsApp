@@ -20,7 +20,9 @@ export default function GoalInput(props) {
                 style={styles.textInput}
                 value={inputText}
             />
-            <Button title="ADD GOAL" onPress={submitButtonHandler} />
+            <View style={styles.button}>
+                <Button title="ADD GOAL" onPress={submitButtonHandler} />
+            </View>
         </View>
     )
 }
@@ -45,4 +47,7 @@ const styles = StyleSheet.create({
         marginRight: 8,
         flex: 2,
     },
+    button: {
+        backgroundColor: "#cc9090",
+    }
 })
