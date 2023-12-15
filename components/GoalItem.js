@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
     },
     goalText: {
         padding: 8,
+        fontSize: 18,
         color: "white",
         textAlign: "center",
     }
